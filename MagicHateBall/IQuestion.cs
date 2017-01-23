@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace MagicHateBall
 {
-    class Program
+    public interface IQuestion
     {
-        static void Main(string[] args)
-        {
-
-            Magic.RunMagicHateBall();
-
-
-        }
+        string Answer();
     }
+
 }
